@@ -1,1 +1,1 @@
-# Research Topic: Cyberbullying Detection and Participant's Role Identification
+# Cyberbullying Detection and Participant's Role Identification
