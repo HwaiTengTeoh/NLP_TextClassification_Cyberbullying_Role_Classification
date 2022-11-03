@@ -1,3 +1,3 @@
-# Cyberbullying Detection and Participant's Role Identification
+# Cyberbullying Participant's Role Identification
 
 
