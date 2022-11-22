@@ -483,9 +483,9 @@ if selected == "Application":
                 st.success("No worry! Our model says the individual who posted the text/post is a non-bully!", icon="✅")
             elif text_pred.tolist()[0] == "Harasser":
                 st.error("Our model says this text/post is from a harasser. It is advised to report this immediately!", icon="🚨")
-            elif text_pred.tolist()[0] == "Harasser":
+            elif text_pred.tolist()[0] == "Victim":
                 st.warning("Our model says this text/post is from a victim. Show your kindness and try to offer help.", icon="⚠️")
-            elif text_pred.tolist()[0] == "Harasser":
+            elif text_pred.tolist()[0] == "Bystander (defender)":
                 st.info("Our model says this text/post is from a bystander (defender). This individual is standing against harassers and asking them to stop cyberbullying.", icon="⚠️")
                
        
