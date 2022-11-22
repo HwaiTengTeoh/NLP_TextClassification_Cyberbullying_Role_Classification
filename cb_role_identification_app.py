@@ -403,10 +403,7 @@ if selected == "Application":
     st.markdown("""
         ##### Just input your text or paste any post that you spotted online. 
         ##### Our model will analyze and check the text or post for you in ***one click***. 
-    """)
-    
-    st.markdown("""
-            Please wait for few seconds, the application will be loaded soon ⏳
+        ##### Please wait for few seconds, the application will be loaded soon ⏳
     """)
 
     # Instantiate
