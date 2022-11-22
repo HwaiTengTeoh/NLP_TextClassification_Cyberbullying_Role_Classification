@@ -342,7 +342,7 @@ if selected =="Home":
                 
                 A new application to check the participant’s role is available now. 
                 
-                This application was distinct from the previous application: [Cyberbullying Checker](), that only check whether cyberbullying exist or not. 
+                This application was distinct from the previous application: [Cyberbullying Checker](https://hwaitengteoh-nlp-textclassification-cyb-cb-detection-app-vm9xk8.streamlit.app/), that only check whether cyberbullying exist or not. 
                 
                 Let's get rolling! 
                 """)
