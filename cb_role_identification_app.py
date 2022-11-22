@@ -332,16 +332,14 @@ selected = option_menu(
     )
 
 if selected =="Home":
-    st.title("Welcome to the Cyberbullying Checker Application!")
+    st.title("Welcome to the Cyberbullying Participant’s Role Checker Application!")
     st.markdown("""
-                Cyberbullying sabotages the environment of Online Social Media. 
-                
-                A detection application is mandatory to prevent anyone from making Online Social Media a playground for them to commit cyberbullying. 
-                
-                At the same time, preventing someone from suffering victimization is more than crucial. 
-                
-                This application was developed to put an end to cyberbullying posts. 
-                
+                Knowing when cyberbullying happens is not sufficient. 
+                While most applications check for cyberbullying text/post from the harasser, our application covers a broader context, including victims and bystander who defends the victim during cyberbullying episodes. 
+                The main concern is to take immediate action on the individual who committed cyberbullying, provide prompt assistance to those being cyberbullied and get the bystander (defender) to stop arguing online before the matter worsens. 
+                A new application to check the participant’s role is available now. 
+                This application was distinct from the previous application: [Cyberbullying Checker](), that only check whether cyberbullying exist or not. 
+                Let's get rolling! 
                 """)
   
     home_image = Image.open('Picture2.png')
@@ -360,10 +358,10 @@ if selected == "Resources":
     st.markdown("""
                 ---
                 ***You may check out the source codes.***
-                >  Here's the [link](https://github.com/HwaiTengTeoh/NLP_TextClassification_Cyberbullying_Detection) to the Github Repository 
+                >  Here's the [link](https://github.com/HwaiTengTeoh/NLP_TextClassification_Cyberbullying_Role_Classification) to the Github Repository 
                 ---
                 ***You may download the model too.***
-                > Here's the [link](https://huggingface.co/teoh0821/cb_detection) to the HuggingFace Repository
+                > Here's the [link](https://huggingface.co/teoh0821/cb_role_identification) to the HuggingFace Repository
                 ---
     """)
     
@@ -394,7 +392,9 @@ if selected =="Contacts":
 if selected == "Application":   
     st.title("Try out the application!")
     st.markdown("""
-                #### It’s simple to kick start!
+                #### Still, guessing who write the text/post? 
+                #### Is it not relevant to cyberbullying (non-bully)? Is it from a harasser? A victim? A bystander defender? 
+                #### Well. Our application can answer this.  
                 ##### Just input your text or paste any post that you spotted online. 
                 ##### Our model will analyze and check the text or post for you in ***one click***. 
         """)
