@@ -404,6 +404,10 @@ if selected == "Application":
         ##### Just input your text or paste any post that you spotted online. 
         ##### Our model will analyze and check the text or post for you in ***one click***. 
     """)
+    
+    st.markdown("""
+            Please wait for few seconds, the application is loading ⏳
+    """)
 
     # Instantiate
     tool = language_tool_python.LanguageTool('en-US')
