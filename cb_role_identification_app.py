@@ -489,10 +489,10 @@ if selected == "Application":
             elif text_pred.tolist()[0] == "Bystander (defender)":
                 st.info("Our model says this text/post is from a bystander (defender). This individual is standing against harassers and asking them to stop cyberbullying.", icon="⚠️")
                
-     st.markdown("""
+    st.markdown("""
             ---
             ***Disclaimer:***
-            > *The information provided on this application does not and is not intended to constitute legal advice; instead. The authors are not liable or responsible for any errors or omissions in the content of this site. All information, content, materials, and outcome available on this application are just a prototype provided for general informational purposes only. The information contained in this application is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness, or timeliness.*  
-            
+            > *The information provided on this application does not and is not intended to constitute legal advice; instead. The authors are not liable or responsible for any errors or omissions in the content of this site. All information, content, materials, and outcome available on this application are just a prototype provided for general informational purposes only. The information contained in this application is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness, or timeliness.*
+           
             ---
             """)
