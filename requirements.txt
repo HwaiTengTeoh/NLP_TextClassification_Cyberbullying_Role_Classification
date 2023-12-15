@@ -21,3 +21,6 @@ pandas
 torch
 transformers
 Pillow
+
+# Other dependencies...
+openjdk-8-jdk
