@@ -20,4 +20,5 @@ streamlit-option-menu
 pandas
 torch
 transformers
+accelerate
 Pillow
