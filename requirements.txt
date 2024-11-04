@@ -7,7 +7,7 @@ git+https://github.com/HwaiTengTeoh/preprocess_text.git
 git+https://github.com/HwaiTengTeoh/language_tool_python.git
 contractions
 pyemd
-numpy==2.0.0
+numpy==1.22.4
 pandas
 spacy==3.7.5
 spacytextblob==4.0.0
