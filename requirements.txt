@@ -18,7 +18,7 @@ fuzzywuzzy
 streamlit==1.16.0
 streamlit-option-menu
 torch
-thinc==8.0.15
+thinc==8.2.2
 transformers
 accelerate
 Pillow
