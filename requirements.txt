@@ -9,7 +9,7 @@ contractions
 pyemd
 spacy==3.5.4
 spacytextblob==4.0.0
-https://huggingface.co/spacy/en_core_web_sm/blob/c0f73349a5d26a58879563c0271789834fcbf878/en_core_web_sm-any-py3-none-any.whl
+https://huggingface.co/spacy/en_core_web_sm/resolve/c0f73349a5d26a58879563c0271789834fcbf878/en_core_web_sm-any-py3-none-any.whl
 numpy==1.26.4
 pandas==1.3.4
 nltk
