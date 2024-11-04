@@ -17,7 +17,6 @@ emot
 fuzzywuzzy
 streamlit==1.16.0
 streamlit-option-menu
-pandas
 torch
 transformers
 accelerate
